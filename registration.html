@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Table</title>
+        <style>
+            th.header-cell {
+                background-color: rgb(252,254,181);
+                color: red;
+            }
+            td {
+            background-color: rgb(116,201,249);
+            }
+        </style>
+    
+    </head>
+<strong>
+<body>
+
+<table border="4" cellspacing="5" cellpadding="7" width="565" height="495" >
+    
+    <tr>
+        <th style="font-size: 30px;" colspan="2" class="header-cell">Registration Form</th>
+    </tr>
+    <tr>
+        <td><strong>Enter Name</strong></td>
+        <td><input type="text"></td>
+    </tr>
+    <tr>
+        <td><strong>Enter Password</strong> </td>
+        <td><input type="password"></td>
+    </tr>
+    <tr>
+        <td><strong>Enter Address</strong></td>
+        <td><textarea id="freeform" name="freeform" rows="4" cols="50">
+        </textarea></td>
+    </tr>
+    <tr>
+        <td><strong>Select Game</strong></td>
+        <td>
+            <input type="checkbox" name="game" value="Hockey">Hockey<br>
+            <input type="checkbox" name="game" value="Football">Football<br>
+            <input type="checkbox" name="game" value="Badminton">Badminton<br>
+            <input type="checkbox" name="game" value="Cricket">Cricket<br>
+            <input type="checkbox" name="game" value="volleyball">Volleyball<br>
+        </td>
+    </tr>
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+        </td>
+    </tr>
+    <tr>
+        <td>Select ur age</td>
+        <td>
+            <div class="age-input">
+                <input type="number" id="age" placeholder="Select" min="0" max="120" step="1">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>Select Photo</td>
+        <td>
+            <input type="file">     
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <button style="width:169px;height:45px;font-size:20px;" type="button"><strong style="font-weight: 545;">Click Me</strong></button>
+            <button style="width:169px;height:45px;font-size:20px;" type="button"><strong style="font-weight: 545;">Reset</strong></button>
+            <button style="width:169px;height:45px;font-size:20px;" type="button"><strong style="font-weight: 545;">Submit Form</strong></button>
+        </td>
+    </tr>
+</table>
+
+</body>
+</strong>
+</html>
